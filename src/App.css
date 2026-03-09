@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+.cosmoFullPage {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2025;
+	backdrop-filter: blur(2px);
+	padding: 0.5rem;
+}
+
+.sm-menubar .p-menubar {
+	padding: 0.25rem;
+}
+
+.sm-menubar .p-menuitem-link {
+	padding: 0.5rem 0.75rem;
+}
+
+.iron-search .p-autocomplete-panel {
+	background: #0a0a0f !important;
+	border: 1px solid rgba(127, 29, 29, 0.5) !important;
+	border-radius: 10px !important;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7) !important;
+}
+
+.iron-search .p-autocomplete-list {
+	background: #0a0a0f !important;
+	padding: 4px 0 !important;
+}
+
+.iron-search .p-autocomplete-option {
+	background: #0a0a0f !important;
+	color: #d1d5db !important;
+	font-size: 13px !important;
+	padding: 8px 14px !important;
+}
+
+.iron-search .p-autocomplete-option:hover,
+.iron-search .p-autocomplete-option.p-focus {
+	background: rgba(127, 29, 29, 0.35) !important;
+	color: #f3f4f6 !important;
+}
+
+.iron-search input::placeholder {
+	color: #4b5563 !important;
+}
+
+.iron-search input {
+	background: transparent;
+	border: transparent;
+}
+
+.cosmoFullPage > .style_module_attribution__8ee622df {
+	display: none;
+}
