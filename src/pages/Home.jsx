@@ -385,7 +385,7 @@ export default function Home() {
             </h2>
             <p className="text-gray-400 leading-relaxed">
               Este projeto nasceu da curiosidade de dois amigos que cresceram
-              dentro do Iron — e quiseram entender, de forma visual, o que torna
+              dentro do Iron e quiseram entender, de forma visual, o que torna
               essa comunidade tão duradoura.
             </p>
           </div>
