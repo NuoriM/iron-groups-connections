@@ -65,6 +65,7 @@ body {
 }
 
 .iron-search input {
+	color: #e6e6e6;
 	background: transparent;
 	border: transparent;
 }
