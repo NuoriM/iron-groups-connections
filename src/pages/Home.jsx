@@ -1,7 +1,6 @@
 import MainLayout from "../components/Main-Layout.component";
 import { useState, useEffect, useRef } from "react";
 
-/* ─── Animated counter ──────────────────────────────────────────────── */
 function AnimatedNumber({ target, suffix = "", delay = 0 }) {
   const [val, setVal] = useState(0);
   const ref = useRef(null);

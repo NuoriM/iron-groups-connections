@@ -1,7 +1,7 @@
 // Main.jsx
 import React from 'react';
 import App from "./App.jsx";
-import Providers from "./providers.jsx";
+import Providers from "./Providers.jsx";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";

@@ -2,11 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  safelist: [
+    "lg:grid-cols-4",
+    // ou com padrão:
+    { pattern: /grid-cols-.+/, variants: ["lg", "xl"] }
   ],
   theme: {
     extend: {
-      
+
     },
   },
   plugins: [],
