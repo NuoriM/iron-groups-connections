@@ -399,7 +399,7 @@ export default function Home() {
                 <CreatorCard
                   nick="NuoriM"
                   role="Dev · Idealizador"
-                  description="Jogador do Iron, responsável por toda a parte técnica do projeto — coleta de dados, construção dos grafos e desenvolvimento da interface."
+                  description="Jogador do Iron, responsável por toda a parte técnica do projeto, coleta de dados, construção dos grafos e desenvolvimento da interface."
                 />
                 <CreatorCard
                   nick="Apparatus"
@@ -417,7 +417,7 @@ export default function Home() {
                 <TechBadge
                   icon={<i className="pi pi-bolt text-white text-2xl"></i>}
                   name="React + Vite"
-                  description="Base da aplicação — interface rápida e reativa"
+                  description="Base da aplicação, interface rápida e reativa"
                 />
                 <TechBadge
                   icon={<i className="pi pi-chart-pie text-white text-2xl"></i>}
