@@ -142,7 +142,7 @@ export default function Home() {
           <div className="mx-auto max-w-3xl">
             <div className="flex items-center gap-3 mb-8">
               <span className="text-xs font-bold uppercase tracking-[0.3em] text-red-500 border border-red-900/50 rounded-full px-3 py-1">
-                Online há 12+ anos · Luso-Brasileiro
+                Online há 12+ anos * Luso-Brasileiro
               </span>
             </div>
 
