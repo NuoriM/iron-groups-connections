@@ -162,6 +162,18 @@ export default function Home() {
               comunidade. Este projeto mapeia exatamente isso.
             </p>
 
+            <div className="flex items-center gap-3 mb-8 px-4 py-3 rounded-xl border border-yellow-900/40 bg-yellow-950/20 text-yellow-500/80">
+              <i
+                className="pi pi-info-circle text-yellow-500"
+                style={{ fontSize: "1rem" }}
+              />
+              <p className="text-sm">
+                Os dados exibidos nos grafos
+                <span className="font-bold"> não são em tempo real</span>,
+                refletem um snapshot da comunidade coletado no dia 06/03/2026.
+              </p>
+            </div>
+
             <div className="flex flex-wrap gap-4">
               <a
                 href="#grafos"
@@ -245,7 +257,7 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-gray-400 leading-relaxed">
                 <p>
-                  O Iron Hotel não é só um jogo — é uma comunidade que
+                  O Iron Hotel não é só um jogo, é uma comunidade que
                   sobreviveu ao fim do Flash, às mudanças do mercado e ao tempo.
                   Mais de 12 anos de histórias, amizades e grupos que moldaram a
                   cultura de um dos Habbos piratas mais longevos da língua
