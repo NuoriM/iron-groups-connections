@@ -164,7 +164,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="/grafo-grupos"
+                href="#grafos"
                 className="inline-flex items-center gap-2 bg-red-700 hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-red-900/40 hover:-translate-y-0.5"
               >
                 <svg
@@ -182,7 +182,7 @@ export default function Home() {
                     d="M7 11l10-5M7 13l10 5"
                   />
                 </svg>
-                Ver Grafo de Grupos
+                Ver Grafos
               </a>
               <a
                 href="#sobre"
@@ -318,7 +318,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-gray-950 pb-24 sm:pb-32">
+      <section id="grafos" className="bg-gray-950 pb-24 sm:pb-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.3em] text-red-600 mb-4 block">
