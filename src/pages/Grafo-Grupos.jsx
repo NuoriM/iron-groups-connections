@@ -1,7 +1,7 @@
 // src/pages/Grafo.jsx
 import { useEffect, useState, useRef } from "react";
 import { Cosmograph, prepareCosmographData } from "@cosmograph/react";
-import grafoData from "../data/ironhotel_graph_positioned.json";
+import grafoData from "../data/ironhotel_graph.json";
 import { Sidebar } from "primereact/sidebar";
 import { AutoComplete } from "primereact/autocomplete";
 import ConnectionListComponent from "../components/Connection-List.component";

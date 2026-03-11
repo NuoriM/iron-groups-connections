@@ -170,7 +170,7 @@ export default function Home() {
               <p className="text-sm">
                 Os dados exibidos nos grafos
                 <span className="font-bold"> não são em tempo real</span>,
-                refletem um snapshot da comunidade coletado no dia 06/03/2026.
+                refletem um snapshot da comunidade coletado no dia 10/03/2026.
               </p>
             </div>
 
